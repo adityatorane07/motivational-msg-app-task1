@@ -1,0 +1,81 @@
+/* General Reset */
+body, html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Background Styling */
+body {
+	font-family: 'Arial', sans-serif;
+	background: linear-gradient(135deg, #6a11cb, #2575fc);
+	color: #fff;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Centered Container Styling */
+center {
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(10px);
+	padding: 40px 20px;
+	border-radius: 15px;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+	width: 90%;
+	max-width: 500px;
+	text-align: center;
+}
+
+/* Heading Styling */
+h1 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	color: #ffeb3b;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+	margin: 10px 0;
+	font-size: 1.3rem;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Highlight Author */
+#aut {
+	font-style: italic;
+	font-size: 1.2rem;
+	color: #ffeb3b;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Button Styling */
+input[type="submit"] {
+	background: #ff9800;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	transition: transform 0.2s, box-shadow 0.2s;
+}
+
+input[type="submit"]:hover {
+	transform: scale(1.05);
+	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+	background: #e65100;
+}
+
+/* Footer Styling (Optional) */
+footer {
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	font-size: 0.8rem;
+	color: #ccc;
+}
